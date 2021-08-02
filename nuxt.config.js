@@ -192,7 +192,9 @@ export default {
     VUE_APP_GOOGLE_MAPS_API_KEY:
       process.env.NODE_ENV === "development"
         ? process.env.VUE_APP_GOOGLE_MAPS_API_KEY
-        : "AIzaSyBg4wE12cEcuWJGQMbKNnb6m2CUTydSZSY"
+        : "AIzaSyBg4wE12cEcuWJGQMbKNnb6m2CUTydSZSY",
+    ANON_KEY: process.env.ANON_KEY,
+    SUPABASE_URL: process.env.SUPABASE_URL
   },
 
   /*
