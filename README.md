@@ -36,6 +36,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - Brotli compression
 - Proxied through cloudflare
 
+## Future plans
+
 - [ ] Create a profile page where users can see their details (email, username, avatar, cabinets listed)
 - [ ] Use Supabase Storage to store avatars
 - [ ] Cache /stats page for faster loading time
