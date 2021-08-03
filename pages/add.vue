@@ -172,14 +172,13 @@
           </p>
         </div>
         <form class="flex flex-col space-y-4">
-          <label
-            ><input
-              v-model="email"
-              class="bg-gray-200 border border-gray-400 rounded-md py-2 w-full px-2"
-              required
-              type="email"
-              placeholder="Email"/></label
-          ><button
+          <input
+            v-model="email"
+            class="bg-gray-200 border border-gray-400 rounded-md py-2 w-full px-2"
+            required
+            type="email"
+            placeholder="Email"
+          /><button
             @click.prevent="signIn()"
             class="bg-blue-500/25 text-blue-500 font-semibold border border-blue-500 py-2 px-2 rounded-md hover:bg-blue-500/40 ease-in-out duration-150 flex justify-center items-center"
             type="submit"
@@ -191,6 +190,12 @@
             ></Icon>
           </button>
         </form>
+        <div
+          v-if="noEmail"
+          class="text-center font-semibold text-red-500 uppercase"
+        >
+          Email is required
+        </div>
         <h2
           v-if="checkEmail"
           class="text-center font-semibold text-green-500 uppercase"
@@ -244,7 +249,8 @@ export default {
       error: null,
       email: null,
       checkEmail: false,
-      sending: false
+      sending: false,
+      noEmail: null
     };
   },
   methods: {
@@ -277,13 +283,17 @@ export default {
     },
     async signIn() {
       this.sending = true;
-      const { user, session, error } = await supabase.auth.signIn(
-        {
-          email: this.email
-        },
-        { redirectTo: `${this.$config.url}add` }
-      );
-      if (!error) this.checkEmail = true;
+      if (!this.email) this.noEmail = true;
+      else {
+        const { user, session, error } = await supabase.auth.signIn(
+          {
+            email: this.email
+          },
+          { redirectTo: `${this.$config.url}add` }
+        );
+        if (!error) this.checkEmail = true;
+      }
+
       this.sending = false;
     },
     async signOut() {
