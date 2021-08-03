@@ -43,3 +43,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [ ] Use Supabase Storage to store avatars
 - [ ] Cache /stats page for faster loading time
 - [ ] Possibly find a way to optimize loading time
+- [ ] Create a landing page
+- [ ] Reset home map coordinates on revisit
