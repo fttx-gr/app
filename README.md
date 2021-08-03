@@ -23,6 +23,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Changelog (compared to previous version)
 
+- Updated dependencies to the latest version
 - Redesigned search bar
 - Moved to supabase.io as backend
 - Implemented a login system, only authenticated users can add cabinets now
