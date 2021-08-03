@@ -1,6 +1,8 @@
-# FTTx
+<p align="center">
+  <img src="https://i.imgur.com/Khor4Qb.png">
+</p>
 
-## Build Setup
+## Installation
 
 ```bash
 # install dependencies
@@ -31,3 +33,10 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - Added a stats page showing the number of centers, cabinets and which ISP they're owned by
 - Click to fill coordinates in the add cabinet form
 - PWA
+- Brotli compression
+- Proxied through cloudflare
+
+- [ ] Create a profile page where users can see their details (email, username, avatar, cabinets listed)
+- [ ] Use Supabase Storage to store avatars
+- [ ] Cache /stats page for faster loading time
+- [ ] Possibly find a way to optimize loading time
