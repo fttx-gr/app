@@ -36,11 +36,11 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.3.6",
-    "sass": "^1.37.0",
+    "sass": "^1.37.5",
     "sass-loader": "^12.1.0"
   },
   "optionalDependencies": {
-    "iltorb": "~2.0.0",
+    "iltorb": "~2.4.5",
     "node-zopfli-es": "~1.0.3"
   }
 }
