@@ -115,7 +115,10 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: "@/plugins/google-maps" }, { src: "@/plugins/google-maps" }],
+  plugins: [
+    { src: "@/plugins/google-maps" },
+    { src: "@/plugins/ga.js", mode: "client" }
+  ],
 
   /*
    ** Auto import components
