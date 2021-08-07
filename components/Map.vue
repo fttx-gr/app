@@ -113,12 +113,12 @@
 
     <div
       v-if="cabinets.length && dslam.length"
-      class="absolute left-0 mt-32 ml-4 md:block hidden"
+      class="absolute left-0 hidden mt-32 ml-4 md:block"
     >
       <stats-box :cabinets="cabinets.length" :centers="dslam.length" />
     </div>
     <div
-      class="flex justify-center text-base text-white underline bottom-0 absolute w-full"
+      class="absolute bottom-0 flex justify-center w-full text-base text-white underline"
     >
       hello@fttx.gr
     </div>
@@ -210,7 +210,7 @@ export default {
         .then(coordinates => {
           this.myCoordinates = coordinates;
         })
-        .catch(error => alert(error));
+        .catch(error => console.log(error));
     }
 
     // does the user have a saved zoom? use it instead of the default
