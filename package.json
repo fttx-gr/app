@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-express",
+  "name": "fttx.gr",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -26,7 +26,6 @@
     "nuxt": "^2.15.7",
     "shrink-ray-current": "^4.1.3",
     "vue-browser-geolocation": "^1.8.0",
-    "vue-loading-overlay": "^4.0.3",
     "vue-toastification": "^1.7.11",
     "vue2-google-maps": "^0.10.7",
     "xss-clean": "^0.1.1"
