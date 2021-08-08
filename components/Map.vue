@@ -141,7 +141,8 @@ export default {
       },
       zoom: 10,
       options: {
-        styles: mapStyle
+        styles: mapStyle,
+        zoomControl: false
       },
       buttons: {
         ote: {
@@ -163,7 +164,7 @@ export default {
       },
       storedMarkers: [],
       markerCluster: null,
-      debugging: true,
+      debugging: false,
       paths: [],
       polygons: [],
       polygonOptions: {
