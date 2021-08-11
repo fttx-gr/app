@@ -23,7 +23,8 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "FTTx Cabinets Map. Έλεγχος διαθεσιμότητας VDSL"
+        content:
+          "FTTx Cabinets Map. Έλεγχος διαθεσιμότητας VDSL. COSMOTE, VODAFONE, WIND, RURAL CONNECT"
       },
       {
         name: "keywords",
@@ -41,7 +42,8 @@ export default {
       {
         hid: "og:description",
         property: "og:description",
-        content: "FTTx Cabinets Map. Έλεγχος διαθεσιμότητας VDSL"
+        content:
+          "FTTx Cabinets Map. Έλεγχος διαθεσιμότητας VDSL. COSMOTE, VODAFONE, WIND, RURAL CONNECT"
       },
       {
         property: "og:url",
@@ -59,7 +61,8 @@ export default {
       {
         hid: "twitter:description",
         name: "twitter:description",
-        content: "FTTx Cabinets Map. Έλεγχος διαθεσιμότητας VDSL"
+        content:
+          "FTTx Cabinets Map. Έλεγχος διαθεσιμότητας VDSL. COSMOTE, VODAFONE, WIND, RURAL CONNECT"
       },
       {
         hid: "twitter:image",
@@ -117,7 +120,7 @@ export default {
    */
   plugins: [
     { src: "@/plugins/google-maps" },
-    { src: "@/plugins/ga.js", mode: "client" }
+    { src: "~/plugins/ga.js", mode: "client" }
   ],
 
   /*
