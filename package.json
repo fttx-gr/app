@@ -34,7 +34,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/tailwindcss": "^4.2.1",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.8",
     "sass": "^1.38.1",
     "sass-loader": "^12.1.0"
   },
