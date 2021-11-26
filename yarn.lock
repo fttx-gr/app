@@ -6265,10 +6265,10 @@ node-fetch@2.6.1, node-fetch@^2.6.0, node-fetch@^2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
-node-geocoder@^3.27.0:
-  version "3.27.0"
-  resolved "https://registry.yarnpkg.com/node-geocoder/-/node-geocoder-3.27.0.tgz#56fe360ab3a8e54050be41dc82a980bf99456a49"
-  integrity sha512-fNMi9smx56wFhG+2sd0qVsq5RgNlkUuQQ7UWqPwynoMb0GjxSP9joAn8wah4YDv6UzZu3b41cNmd0BglEPkC+Q==
+node-geocoder@^3.28.0:
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/node-geocoder/-/node-geocoder-3.28.0.tgz#d23d4cbf6b5df8a612cd20f51b68b2397f29d4cb"
+  integrity sha512-C6HgQWFYwFzD4PSIfzcdwqagZmr442juza1ZXI4afT0mWg1fT5GLvT8Z3C05XpUAuCV4fWS5QtQwx3zw+mFHnQ==
   dependencies:
     bluebird "^3.5.2"
     node-fetch "^2.6.0"
