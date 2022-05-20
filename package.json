@@ -14,7 +14,7 @@
     "@supabase/supabase-js": "^1.35.3",
     "animated-number-vue": "^1.0.0",
     "cookie-parser": "^1.4.6",
-    "discord.js": "^12.5.3",
+    "discord.js": "^13.7.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-rate-limit": "^6.4.0",
