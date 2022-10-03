@@ -23,7 +23,7 @@
     "lru-cache": "7.14.0",
     "marker-clusterer-plus": "2.1.4",
     "morgan": "1.10.0",
-    "node-geocoder": "4.1.0",
+    "node-geocoder": "4.2.0",
     "nuxt": "2.15.8",
     "shrink-ray-current": "4.1.3",
     "vue-browser-geolocation": "1.8.0",
