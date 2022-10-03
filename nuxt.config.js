@@ -108,14 +108,11 @@ export default {
   /*
    ** Global CSS
    */
-   css: [
-    "@/assets/css/main.css",
-  ],
+  css: [],
 
   loading: {
     color: "#109E92"
   },
-  
 
   /*
    ** Plugins to load before mounting the App
@@ -136,8 +133,8 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    "@nuxt/postcss8",
     // Doc: https://github.com/nuxt-community/eslint-module
+    "@nuxtjs/tailwindcss",
     "@nuxtjs/pwa"
   ],
 
@@ -196,15 +193,7 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {
-    transpile: [/^vue2-google-maps($|\/)/],
-    postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {}
-      }
-    }
-  },
+  build: { transpile: [/^vue2-google-maps($|\/)/] },
   env: {
     VUE_APP_GOOGLE_MAPS_API_KEY:
       process.env.NODE_ENV === "development"
