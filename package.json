@@ -41,7 +41,7 @@
     "tailwindcss": "^3.0.24",
     "postcss": "8.4.14",
     "sass": "1.53.0",
-    "sass-loader": "13.0.2"
+    "sass-loader": "13.2.0"
   },
   "optionalDependencies": {
     "iltorb": "~2.4.5",
